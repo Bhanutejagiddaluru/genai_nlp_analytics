@@ -1,0 +1,2 @@
+RAG (Retrieval-Augmented Generation) combines information retrieval with text generation.
+A retriever selects relevant passages from a document index; then an LLM conditions on those passages to generate grounded answers.

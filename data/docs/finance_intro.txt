@@ -1,0 +1,2 @@
+Financial analytics often use indicators like RSI and MACD to analyze trends.
+In a production pipeline, data quality checks, backtesting, and risk management are critical.

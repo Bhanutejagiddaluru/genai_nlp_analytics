@@ -1,0 +1,1 @@
+Spark, Ray, and Dask enable distributed compute. Spark excels in batch ETL, Ray for actor-based ML scaling, and Dask for flexible Python-native parallelism.

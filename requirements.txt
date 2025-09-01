@@ -1,0 +1,32 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+pydantic==2.9.2
+python-dotenv==1.0.1
+
+# Core
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.5
+joblib>=1.4
+
+# LLMs / RAG
+transformers>=4.43
+tokenizers>=0.19
+# Optional: uncomment if you want vector DBs
+# faiss-cpu
+# chromadb
+
+# UI
+streamlit>=1.37
+plotly>=5.24
+requests>=2.32
+httpx>=0.27
+websockets>=12.0
+
+# Distributed (optional)
+ray>=2.33
+dask[distributed]>=2024.8.0
+pyspark>=3.5
+
+# Testing
+pytest>=8.3

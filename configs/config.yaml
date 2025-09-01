@@ -1,0 +1,17 @@
+# Basic app configuration
+rag:
+  index_path: configs/tfidf_index.joblib
+  n_docs: 3
+  use_embeddings: false
+
+llm:
+  model_name: distilgpt2  # demo-friendly; replace with your LLM
+  max_new_tokens: 128
+
+finance:
+  default_symbol: AAPL
+  window: 100
+
+server:
+  host: 0.0.0.0
+  port: 8000
